@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es-pe">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Inscripción para mascotas.">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	
+	<link rel="shortcut icon" href="form.png">
+	<script type="text/javascript" src="code.js"></script>
+	<title>Inscripción de mascotas</title>
+</head>
+<body>
+	<header class="title-group">
+	<h1 id="title">Registra a tu mascota</h1>
+	<p id="description">Formulario de inscripción de mascotas para sorteos.</p>
+	</header>
+	<form id="survey-form">
+		<div id="form-group">
+  			<label id="name-label"> Nombre:
+  			<input type="text" id="name" placeholder="Ingrese el nombre de su mascota..." required>
+  			</label>
+  		</div>
+  		<div id="form-group">
+  			<label id= "email-label"> Email:
+  			<input type="email" id="email" placeholder="Ingrese su e-mail..." required>
+  			</label>
+  		</div>
+  		<div id="form-group">
+ 			<label id="number-label"> Edad: (opcional)
+ 			<input type="number" id="number" placeholder="Ingrese la edad de su mascota..." min="0" max="20">
+ 			</label>
+ 		</div>
+    <div id="current-role">
+     	<p class="titulitos">¿Qué animal es tu mascota?</p>
+    	<select id="dropdown" required>
+      		<option disable selected value> Selecciona una opción </option>
+      		<option value="Perro"> Perro </option>
+      		<option value="Gato"> Gato </option>
+      		<option value="Conejo"> Conejo </option>
+      		<option value="Loro"> Loro </option>
+      		<option value="Otros"> Otros </option>
+   		 </select>
+  	</div> 
+
+  	<div id="group-selection">
+  	
+  		
+  		<label id="selection">
+			<p class="titulitos">¿Recomendarías este formulario a tus amigos?</p>
+  			<input type="radio" value="Definitivamente" name="user-recomend" id="selection-input" checked>Definitivamente.
+  		</label><br>
+  		<label id="selection">
+  			<input type="radio" value="No lo sé" name="user-recomend" id="selection-input" >No lo sé.
+  		</label><br>
+  		<label id="selection">
+  			<input type="radio" value="No" name="user-recomend" id="selection-input">No.
+  		</label>
+  	</div>
+
+  	<div id="current-role">
+   		<label>
+    	<p class="titulitos">¿Cómo te gustaría que fuese el sorteo?</p>
+   		<select id="dropdown" required>
+      	<option disable selected value> Selecciona una opción </option>
+      	<option value="Publicación"> Publicación </option>
+      	<option value="Transmisión en vivo"> Transmisión en vivo </option>
+      	<option value="Video con el sorteo"> Video con el sorteo </option>
+      	<option value="NS/NO"> NS/NO </option>
+    	</select>
+  		</label>  
+  	</div>
+
+  	<div id="current-role">
+  		<p class="titulitos">Vota por las mejores opciones de premio...</p>
+  		<label class="premios">
+    	<input type="checkbox" value="kg de comida"> 5kg de comida balanceada.<br>
+    	</label>
+    	<label class="premios">
+    	<input type="checkbox" value="utiles de aseo"> Útiles de aseo.<br>
+    	</label>
+    	<label class="premios">
+    	<input type="checkbox" value="baño"> Baño medicado gratis.<br>
+    	</label>
+    	<label class="premios">
+    	<input type="checkbox" value="corte"> Corte estético gratis.<br>
+    	</label>
+    	<label class="premios">
+    	<input type="checkbox" value="juguetes"> Juguetes.<br>
+    	</label>
+    	<label class="premios">
+   	 	<input type="checkbox" value="ropa"> Prendas de vestir.<br>
+   		</label>
+   	 	<label class="premios">
+    	<input type="checkbox" value="fotos"> Una sesión de fotos.<br>
+    	</label>
+    	<label class="premios">
+    	<input type="checkbox" value="uñas"> Corte de uñas.<br>
+		</label>
+    	<label class="premios">
+    	<input type="checkbox" value="desparasitación"> Desparasitación.<br>
+		</label>
+    	<label class="premios"> 
+    	<input type="checkbox" value="vitaminas"> Vitaminas.<br>
+		</label>
+    	<label class="premios">
+    	<input type="checkbox" value="vales"> Vales de descuento en veterinarias.<br>
+    	</label>
+  	</div>
+
+  	<div id="current-role">
+  	<label>
+  		<p class="titulitos">¿Nos dejarías alguna sugerencia?</p>
+  		<textarea id="comentarios" resize="none" placeholder="Gracias por participar..." name="coment"></textarea><br>
+  	</label>
+  	<button type="submit" id="submit" class="submit-button">Enviar</button>
+  	</div>
+	</form>
+</body>
+</html>

@@ -1,0 +1,142 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+ background-image: linear-gradient( 150deg, rgba(95, 234, 200, 0.8), rgba(143, 238, 215, 0.7) ), url(./Mascotas/background.jpg);
+}
+
+#title {
+  text-align: center;
+  margin: 20px auto;
+  color: #000;
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: underline;
+  
+}
+
+#description {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 auto 10px;
+  font-weight: 600;
+}
+
+#survey-form {
+  background-image: linear-gradient( 150deg, rgba(25, 138, 111, 0.8 ), rgba(33, 162, 131, 0.7));
+  width: 100%;
+  height: 100%;
+  max-width: 620px;
+  text-align: justify;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#form-group {
+  padding: 0.25rem;
+  width: 100%;
+}
+
+#name-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1em;
+  margin: 20px 38px 0 30px;
+}
+
+#name {
+  margin-top: 5px;
+  font-size: 0.8em;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+}
+
+#email-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1em;
+  margin: 20px 38px 0 30px;
+}
+
+#email {
+  margin-top: 5px;
+  font-size: 0.8em;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+}
+
+#number-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1em;
+  margin: 16px 38px 0 30px;
+}
+
+#number {
+  margin-top: 5px;
+  font-size: 0.8em;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+}
+
+#current-role {
+  font-size: 19px;
+  margin: 16px 35px 0px 35px;
+}
+
+#current-role .premios {
+  line-height: 1.4em; 
+}
+
+#dropdown {
+  width: 100%;
+  font-size: 0.8em;
+  padding: 5px 6px 5px 6px;
+  border-radius: 5px;
+}
+
+#group-selection {
+  margin: 20px 35px 10px 35px;
+}
+
+#selection {
+  font-size: 1.1em;
+}
+
+#selection-input {
+  margin: 10px 7px 0px 0px;
+}
+
+p {
+  padding: 0px 0px 10px 0px;
+}
+
+#comentarios {
+    min-height: 120px;
+    width: 33.6rem;
+    font-size: 0.8em;
+    padding-left: 5px;
+    border-radius: 10px;
+    margin: 10px 2px;
+    resize: none;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgb(144, 238, 144);
+    color: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.titulitos {
+  font-size: 1em;
+}
